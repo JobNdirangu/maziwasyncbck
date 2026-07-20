@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'f28c-197-237-20-103.ngrok-free.app',
     '127.0.0.1',
-    'localhost'
+    'localhost',
+    'milksync.alwaysdata.net'
 ]
 
 AUTH_USER_MODEL='core.User'
