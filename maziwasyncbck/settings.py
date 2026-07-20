@@ -100,14 +100,25 @@ WSGI_APPLICATION = 'maziwasyncbck.wsgi.application'
 # }
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'maziwasyncbckdb',
+#         'HOST': 'localhost',
+#         'USER':'root',
+#         'PASSWORD':'',
+
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'maziwasyncbckdb',
-        'HOST': 'localhost',
-        'USER':'root',
-        'PASSWORD':'',
-
+        'NAME': 'milksync_maziwasyncbckdb',
+        'HOST': 'mysql-milksync.alwaysdata.net',
+        'USER':'milksync',
+        'PASSWORD':'Modcom2026',
     }
 }
 
