@@ -19,6 +19,7 @@ class MilkCollectionSerializer(serializers.ModelSerializer):
             'session',
             'total_amount',
             'collection_date',
+            'price_per_liter'
         ]
     def get_farmer_name(self, obj):
         return f"{obj.farmer.first_name} {obj.farmer.last_name}"
