@@ -29,9 +29,15 @@ ALLOWED_HOSTS = [
     'f28c-197-237-20-103.ngrok-free.app',
     '127.0.0.1',
     'localhost',
-    'milksync.alwaysdata.net'
+    'milksync.alwaysdata.net',
     'localhost:5173/'
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+
 
 AUTH_USER_MODEL='core.User'
 
