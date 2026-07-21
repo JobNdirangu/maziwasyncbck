@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     'milksync.alwaysdata.net'
+    'localhost:5173/'
 ]
 
 AUTH_USER_MODEL='core.User'
